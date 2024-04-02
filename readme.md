@@ -50,7 +50,16 @@ En gros on demande à votre ordinateur où se trouve le programme lua.
 
 Si vous avez une reponse, c'est que votre ordinateur a trouvé le programme !
 
-Sinon, vous allez devoir l'installer.
+Sinon, vous allez devoir l'installer. Donc l'installation se fera également
+sur votre terminal. Rappellez vous, c'est ce qui permet de parler à votre
+machine, donc si vous avez besoin d'installer des applications, vous pouvez
+egalement le faire sur votre terminal.
+
+Pour cela, nous allons d'abord trouver ce qu'on appelle un `Package Manager`,
+ou "Gestionnaire de paquets" 🥖🇫🇷 si vous voulez le dire en Français, même si
+je trouve personnellement ça ridicule.
+
+Pour cela, nous allons devoir encore utiliser la commande `which`.
 
 ## Hello world !
 
