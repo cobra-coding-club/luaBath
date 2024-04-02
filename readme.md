@@ -97,6 +97,8 @@ me l'affichiez 100 fois.
 
 Mais il y a un hic, vous n'avez le droit qu'à un seul print!
 
+> C'est quoi une boucle ?
+
 ## Une averse de Hello world ????
 
 Tout à l'heure, vous avez réussi à m'afficher "Hello world", 100 fois. Bravo !
