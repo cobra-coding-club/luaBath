@@ -74,7 +74,7 @@ sudo [nom du package manager] install lua
 
 ## Hello world !
 
-Votre premiere tache sera d'afficher la phrase "Hello world" lorsque vous
+Votre première tache sera d'afficher la phrase "Hello world" lorsque vous
 lancerez votre programme.
 
 ## J'aime l'alcool
@@ -84,9 +84,9 @@ Mais ai-je le droit d'en boire ? Oui, seulement si j'ai plus de 18 ans.
 Créez votre **variable** nommée `age`, et donnez lui un nombre.
 
 Faites en sorte que votre programme affiche "Je peux boire de l'alcool !" si
-l'age est plus que 18,
-qu'il affiche "Joyeux anniversaire! Tiens, de la tequilla" si votre age est 18
-et afficher "Pas d'alcool pour toi mon enfant" si l'age est en dessous de 18.
+l'âge est plus que 18,
+qu'il affiche "Joyeux anniversaire! Tiens, de la tequilla" si votre âge est 18
+et afficher "Pas d'alcool pour toi mon enfant" si l'âge est en dessous de 18.
 
 > Qu'est ce qu'une variable, qu'est ce qu'une condition ?
 
@@ -100,18 +100,18 @@ Mais il y a un hic, vous n'avez le droit qu'à un seul print!
 ## Une averse de Hello world ????
 
 Tout à l'heure, vous avez réussi à m'afficher "Hello world", 100 fois. Bravo !
-Vous avez surement utilisé une boucle.
+Vous avez sûrement utilisé une boucle.
 
-Maintenant, affcihez moi Hello World, 100 fois en utilisant 3 boucles
-differentes.
+Maintenant, affichez moi Hello World, 100 fois en utilisant 3 boucles
+différentes.
 
 ## Ma premiere fonction: myIsNeg
 
-Créez moi une fonction, qui s'appelle myIsNeg. Elle **renvoie** `true` si le
-chiffre que je te donne en **paramettre** est negatif, et `false` si le
+Créez-moi une fonction qui s'appelle myIsNeg. Elle **renvoie** `true` si le
+chiffre que je te donne en **paramettre** est négatif, et `false` si le
 chiffre est positif.
 
-Voici un petit code pour vous aidez à savoir si vous avez bien reussi:
+Voici un petit code pour vous aidez à savoir si vous avez bien réussi :
 ```lua
 print(myIsNeg(-3)) -- true
 print(myIsNeg(42)) -- false
@@ -119,20 +119,20 @@ print(myIsNeg(42)) -- false
 
 > Qu'est ce qu'une fonction ?
 
-> Ca veut dire quoi renvoyer (return) ?
+> Ça veut dire quoi renvoyer (return) ?
 
-> C'est quoi un paramettre ?
+> C'est quoi un paramètre ?
 
 ## 1 + 1
 
-Maintenant que vous avez créez votre premiere fonction, il est tant d'en faire
-une deuxieme.
+Maintenant que vous avez créé votre première fonction, il est tant d'en faire
+une deuxième.
 
 Créez votre propre fonction, myAdder, qui va prendre 2 arguments en
-paramettres, qui sont deux nombres, et qui va renvoyer l'addition des deux
-nombres.
+paramètres (qui sont deux nombres), et qui va renvoyer l'addition de ces
+deux derniers.
 
-Voici un petit programme qui devrait fonctionner avec votre fonction:
+Voici un petit programme qui devrait fonctionner avec votre fonction :
 ```lua
 print(myAdder(1, 1)) -- 2
 print(myAdder(3, 4)) -- 7
@@ -140,24 +140,25 @@ print(myAdder(3, 4)) -- 7
 
 ## Hello + World
 
-Bon, vous pouvez maintenant ajouter des chiffres entre eux. Maintenant, c'est l'heure d'ajouter... des chaines de characteres !
+Bon, vous pouvez maintenant ajouter des chiffres entre eux. Maintenant,
+c'est l'heure d'ajouter... Des chaînes de caractères !
 
 Créez votre fonction myConcat qui va **concattener** des strings entre elles.
 
-Ce code devrait fonctionner:
+Ce code devrait fonctionner :
 ```lua
 print(myConcat("hello", "world")) -- helloworld
 print(myConcat("foo", "bar")) -- foobar
 ```
 
-> Ca veut dire quoi concatener ?
+> Ca veut dire quoi concaténer ?
 
 ## Secure 1 + 1
 
-Malheuresement, les gens ne sont pas tous gentils, certains vont vouloir
-envoyer des chaines de characteres a la place de chiffre dans votre myAdder,
+Malheureusement, les gens ne sont pas tous gentils, certains vont vouloir
+envoyer des chaînes de caractères a la place de chiffre dans votre myAdder,
 modifie ta fonction pour qu'elle n'accepte seulement des `nombres` en
-paramettre.
+paramètre.
 
 ```lua
 print(myAdder(1, 1)) -- 2
@@ -171,27 +172,27 @@ print(myAdder(1, "hello")) -- nil
 En lua, il existe un type qui est primordial à la programmation. Ce sont les
 tables, qui sont tres utiles pour tout et n'importe quoi.
 
-Voici à quoi ressemble ma table:
+Voici à quoi ressemble ma table :
 ```lua
 local fruits = {"banana", "apple", "ananas", "banana"}
 ```
 
-Ecris moi une fonction qui s'appelle `myPutTable` qui prends ma table en
-paramettre et qui m'affiche son contenu.
+Écris-moi une fonction qui s'appelle `myPutTable` qui prends ma table en
+paramètre et qui m'affiche son contenu.
 
-Le code si dessous devrait marcher:
+Le code ci-dessous devrait marcher:
 ```lua
 myPutTable(fruits) -- banana apple ananas banana
 ```
 
 > Comment créer une table ?
 
-> Peut etre que les boucles peuvent etre utiles ?
+> Peut être qu'une certaine boucle peut s'avérer utile ?
 
 ## Devinette
 
-Je vais juste vous donner ce petit code, vous allez devoir ecrire le code
-qui vous permet d'avoir une table donnant ce resultat:
+Je vais juste vous donner ce petit code, vous allez devoir écrire le code qui
+vous permet d'avoir une table donnant ce résultat :
 ```lua
 -- Créez votre 'myDevinette' ici
 
@@ -207,13 +208,13 @@ myDevinette.add(1, 0) -- "1 + 0 = 1"
 
 ## 1 + 1 + 1 ...
 
-Moi, je veux vraiment pas ajouter seulement 2 nombres. J'aimerais bien en
-ajouter, voyons voir... une infinité ?
+Moi, je ne veux vraiment pas ajouter seulement 2 nombres. J'aimerais bien en
+ajouter, voyons voir... Une infinité ?
 
-Ecris la fonction `mySuperAdder`, qui te permet de d'ajouter une infinité
-de chiffre ensemble.
+Écris la fonction `mySuperAdder`, qui te permet de d'ajouter une infinité
+de chiffres ensemble.
 
-Le code ci dessous devrait fonctionner:
+Le code ci-dessous devrait fonctionner :
 ```lua
 print(mySuperAdder(1, 2, 3, 4)) -- 10
 print(mySuperAdder(3, 3)) -- 6
@@ -223,9 +224,9 @@ print(mySuperAdder(1)) -- 1
 ## Meta-verse
 
 En lua, vous avez ce qui s'appelle des `metatables`. En gros, c'est ce qui
-permet de donner des attributs en plus a vos tables.
+permet de donner des attributs en plus à vos tables.
 
-Par exemple, vous pouvez ajouter des tables ensemble!
+Par exemple, vous pouvez ajouter des tables ensemble !
 
 Créez une table qui peut se faire ajouter son nombre, tel que ce code
 fonctionne:
@@ -244,9 +245,9 @@ print(mytable.number) -- 45
 
 ## La descendance
 
-Ok, il est temps de passer au choses serieuses. Vous allez créer une famille.
+Ok, il est temps de passer aux choses sérieuses. Vous allez créer une famille.
 
-Vous allez pouvoir créer... des humains et leur descendance!
+Vous allez pouvoir créer... Des humains et leur descendance !
 
 Voici le code qui devrait fonctionner:
 ```lua
@@ -265,81 +266,87 @@ print(child.name) -- baby john
 print(child.age) -- 0
 ```
 
-L'enfant devrait avoir "baby" + le nom du premier parent. Son age doit etre à
-0 quand il né.
+L'enfant devrait avoir "baby" + le nom du premier parent. Son âge doit être à
+0 quand il naît.
 
 > C'est quoi le ":" en lua ?
 
 ## Give me you mail
 
-Les mails sont tres utiles, mais des personnes mallicieuses vous donneront
-surement un faux mail pour eviter de recevoir des spams de votre part.
+Les mails sont très utiles, mais des personnes malicieuses vous donneront
+sûrement un faux mail pour eviter de recevoir des spams de votre part.
 
-Vous devez absolument empecher ces gens de vous donner un email invalide !
+Vous devez absolument empêcher ces gens de vous donner un email invalide !
 Créez votre fonction `giveMeYourMail` qui renvoie `true` si votre mail est
-valide, et `false` si il ne l'est pas:
+valide, et `false` s'il ne l'est pas:
 ```lua
 print(giveMeYourMail("hello, world")) -- false
 print(giveMeYourMail("foo@bar.com")) -- true
 print(giveMeYourMail("foo@bar")) -- false
 ```
 
-Un mail est constitué d'un nom, qui peut etre n'importe quel caractere
-**alphanumerique**, suivi d'un arobase, puis d'un nom de site, comprenant
-encore des caracteres alphanumeriques, suivi d'un point et d'encore des
-caracteres alhpanumeriques.
+Un mail est constitué d'un nom, qui peut être n'importe quel caractère
+**alphanumériques**, suivi d'un arobase, puis d'un nom de site, comprenant
+encore des caractères alphanumériques, suivi d'un point et d'encore des
+caractères alphanumériques.
 
 ALPHANUM @ ALPHANUM . ALPHANUM
 
-> Alphanumequoi ? Ca veut dire quoi alphanumerique ?
+> Alphanumequoi ? Ca veut dire quoi alphanumérique ?
 
-> Peut etre qu'il existe une technique en lua pour
-> checker des patterns de string ?
+> Peut être qu'il existe une technique en lua pour
+> comparer des patterns de string ?
 
 ## Hello there
 
-Mais dis moi, je ne connais pas ton nom ? Créé ta propre fonction `helloThere`
-qui permet à l'utilisateur de donner un nom apres avoir lancé ton programme,
-et l'affiche suivi d'un "Hello there, ", voici à quoi cela devrait ressembler:
+Mais dis moi, je ne connais pas ton nom ?
+
+Créé ta propre fonction `helloThere` qui permet à l'utilisateur de donner un
+nom après avoir lancé ton programme, et l'affiche suivi d'un "Hello there, ",
+
+Voici à quoi cela devrait ressembler:
 ```sh
 $ lua ./hellothere.lua
 What is your name ?
-> General Kenobi # Ceci est ce que vous ecrivez
+> General Kenobi # Ceci est ce que vous écrivez
 Hello there, General Kenobi
 $ 
 ```
 
+> Qu'est ce que io ?
+
 ## Cobblestone generator
 
-Vous etes une colonie qui mine de la cobble avec des generateur de cobblestone.
+Vous êtes une colonie qui mine de la cobble avec des générateurs de
+cobblestone.
 
-Un generateur se construit avec de la lave et de l'eau. Lorsque l'on a les
-deux, le generateur peut créer de la cobblestone.
+Un générateur se construit avec de la lave et de l'eau. Lorsque l'on a les
+deux, le générateur peut créer de la cobblestone.
 
-Mais, votre generateur a une certaine reserve de cobblestone, il ne peut plus
-en generer si votre reserve est pleine.
+Mais votre générateur a une certaine réserve de cobblestone, il ne peut plus
+en générer si votre réserve est pleine.
 
-Vous devriez avoir les fonctions suivantes dans chaque generateur:
+Vous devriez avoir les fonctions suivantes dans chaque générateur:
 - `:give(string)`: Vous permet de donner de la lave ou de l'eau à votre
 générateur. <br>
-Si vous lui donnez autre chose, il vous dira "Je ne prends pas ca". <br>
-Si vous lui avez deja donné de l'eau, il vous dira "J'ai deja ca".
+Si vous lui donnez autre chose, il vous dira "Je ne prends pas ça". <br>
+Si vous lui avez déja donné de l'eau, il vous dira "J'ai deja ça".
 
-- `:generate()`: Vous permet de generer de la cobblestone. <br>
+- `:generate()`: Vous permet de générer de la cobblestone. <br>
 Si vous n'avez pas d'eau, il vous dira "Je n'ai pas d'eau". <br>
 Si vous n'avez pas de lave, il vous dira "Je n'ai pas de lave". <br>
-Si il a atteint sa limite, il vous dira "Trop de cobble !"
+S'il a atteint sa limite, il vous dira "Trop de cobble !"
 
-- `:howMany()`: Vous affiche combien de cobblestone votre generateur a.
+- `:howMany()`: Vous affiche combien de cobblestone votre générateur a.
 
-- `:empty()`: Vide votre generateur.
+- `:empty()`: Vide votre générateur.
 
 Votre but est de créer une table `motherGenerator`, qui vous permet de
-créer autant de generateur que vous voulez.
+créer autant de générateur que vous voulez.
 
-Voici les methode de votre motherGenerator:
-- `.new(number?)`: Permet de créer un generateur ayant comme limite le
-paramettre donné. <br>
+Voici les méthodes de votre motherGenerator:
+- `.new(number?)`: Permet de créer un générateur ayant comme limite le
+paramètre donné. <br>
 Si aucun chiffre n'est donné, la limite est automatiquement de 5.
 
 Voici un exemple:
@@ -349,10 +356,10 @@ Voici un exemple:
 local generator = motherGenerator.new(3)
 generator:generate() -- Je n'ai pas d'eau
 generator:give("eau")
-generator:give("albert") -- Je ne prends pas ca
+generator:give("albert") -- Je ne prends pas ça
 generator:generate() -- Je n'ai pas de lave
 generator:give("lave")
-generator:give("lave") -- J'ai deja de ca
+generator:give("lave") -- J'ai deja ça
 
 generator:howMany() -- 0
 generator:generate()
