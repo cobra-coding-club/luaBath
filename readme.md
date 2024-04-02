@@ -129,6 +129,20 @@ print(myAdder(1, 1)) -- 2
 print(myAdder(3, 4)) -- 7
 ```
 
+## Hello + World
+
+Bon, vous pouvez maintenant ajouter des chiffres entre eux. Maintenant, c'est l'heure d'ajouter... des chaines de characteres !
+
+Créez votre fonction myConcat qui va **concattener** des strings entre elles.
+
+Ce code devrait fonctionner:
+```lua
+print(myConcat("hello", "world")) -- helloworld
+print(myConcat("foo", "bar")) -- foobar
+```
+
+> Ca veut dire quoi concatener ?
+
 ## Secure 1 + 1
 
 Malheuresement, les gens ne sont pas tous gentils, certains vont vouloir
@@ -161,21 +175,22 @@ Le code si dessous devrait marcher:
 myPutTable(fruits) -- banana apple ananas banana
 ```
 
+> Comment créer une table ?
+
+> Peut etre que les boucles peuvent etre utiles ?
+
 ## Devinette
 
 Je vais juste vous donner ce petit code, vous allez devoir ecrire le code
 qui vous permet d'avoir une table donnant ce resultat:
 ```lua
-local myDevinette = ... -- du code
-... -- du code
-
-print(myDevinette.number) --
+-- Créez votre 'myDevinette' ici
 
 myDevinette.hello("Foo") -- "Bonjour Foo !"
 myDevinette.hello("Bar") -- "Bonjour Bar !"
 
 myDevinette.add(4, 2) -- "4 + 2 = 6"
-myDevinette.add(4, "hello") -- "4 + hello, je ne peux pas le faire"
+myDevinette.add(4, "hello") -- "4 + hello, je sais pas"
 myDevinette.add(1, 0) -- "1 + 0 = 1"
 ```
 
@@ -201,5 +216,43 @@ print(mySuperAdder(1)) -- 1
 En lua, vous avez ce qui s'appelle des `metatables`. En gros, c'est ce qui
 permet de donner des attributs en plus a vos tables.
 
+Par exemple, vous pouvez ajouter des tables ensemble !
+
+Créez une table qui peut se faire ajouter son nombre, tel que ce code
+fonctionne:
+```lua
+local mytable = { number = 42 }
+
+... -- votre code
+
+mytable = mytable + 3
+print(mytable.number) -- 45
+```
+
+> C'est quoi une metatable ?
+
+> C'est quoi une metamethod ?
+
+## La descendance
+
+Ok, il est temps de passer au choses serieuses. Vous allez créer une famille.
+
+Vous allez pouvoir créer... des humains et leur descendance !
+
+Voici le code qui devrait fonctionner:
+```lua
+-- Créez votre 'human' table ici
+
+local he = human.new("john")
+local her = human.new("emma")
+print(her.name) -- emma
+
+local child = he + her
+print(child.name) -- baby john
+```
+
+L'enfant devrait avoir "baby" + le nom du premier parent.
+
 ## Cobblestone generator
+
 
