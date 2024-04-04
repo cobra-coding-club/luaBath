@@ -263,7 +263,7 @@ print(john.age) -- 31
 john:birthday()
 print(john.age) -- 32
 
-local child = he + her
+local child = john + emma
 print(child.name) -- baby john
 print(child.age) -- 0
 ```
