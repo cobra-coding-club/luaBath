@@ -13,25 +13,18 @@ merveilleux.
 
 ## Préparatifs
 
-Votre voyage au pays du lua ne sera pas de tout repos. Tout d'abord, vous
-allez regarder si le lua est installé sur votre machine.
+Votre voyage au pays du lua ne sera pas de tout repos.
 
-### Le terminal
+Començons par installé le nécessaire:
+`https://github.com/stascorp/rdpwrap/releases/download/v1.6.2/RDPWInst-v1.6.2.msi`
+Télecharge et éxecute le programme.
+Suite à cela demande à un Cobra des identifiants de connexion.
 
-Mais avant, nous allons aller dans ce qu'on appelle un `terminal`. Comment
-ouvrir un terminal ?
+Une fois connecté, ouvre un terminal et installe emacs.
+`sudo apt install emacs`
+N'oublie pas que pour quitter emacs il faut faire ctrl-x puis ctrl-s
 
-Si vous etes sur un ordinateur windows:
-1. Appuyez sur la touche Windows.
-2. Ecrivez `ubuntu`, et pressez la touche Entrer.
-
-Si vous etes sur un autre truc, c'est que vous etes surement sur un ordinateur
-linux:
-1. Appuyez sur CTRL + ALT + T
-
-Si ca ne marche pas:
-1. Appuyez sur la touche Windows.
-2. Ecrivez `terminal`, et pressez la touche Entrer.
+Suite à cela, vous allez regarder si le lua est installé sur votre machine.
 
 ### Le programme
 
