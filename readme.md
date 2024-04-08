@@ -8,7 +8,7 @@ bases de la programation, avec le meilleur language du monde.
 
 ### Trigger Warning
 
-Le lua est mon langage de coeur ❤️, alors appreciez ce petit bain car il est
+Le lua est mon langage de coeur <3 alors appreciez ce petit bain car il est
 merveilleux.
 
 ## Préparatifs
@@ -16,7 +16,9 @@ merveilleux.
 Votre voyage au pays du lua ne sera pas de tout repos.
 
 Començons par installé le nécessaire:
+
 `https://github.com/stascorp/rdpwrap/releases/download/v1.6.2/RDPWInst-v1.6.2.msi`
+
 Télecharge et éxecute le programme.
 Suite à cela demande à un Cobra des identifiants de connexion.
 
@@ -49,7 +51,7 @@ machine, donc si vous avez besoin d'installer des applications, vous pouvez
 egalement le faire sur votre terminal.
 
 Pour cela, nous allons d'abord trouver ce qu'on appelle un `Package Manager`,
-ou "Gestionnaire de paquets" 🥖🇫🇷 si vous voulez le dire en Français, même si
+ou "Gestionnaire de paquets" si vous voulez le dire en Français, même si
 je trouve personnellement ça ridicule.
 
 Pour cela, nous allons devoir encore utiliser la commande `which`.
